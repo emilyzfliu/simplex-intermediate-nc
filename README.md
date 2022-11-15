@@ -15,10 +15,12 @@ Additionally, we will explore when and how the ETF-based network exhibits NC und
 The architectures we will use are MLP (L layers, change L), VGG, [ImageNet, DenseNet] with ReLU Activation. We will use the CIFAR-10 and CIFAR-100 datasets to see how the behavior changes with number of classes. 
  
 References
-https://arxiv.org/pdf/2008.08186.pdf – original NC paper
+https://arxiv.org/pdf/2008.08186.pdf
+
 https://arxiv.org/pdf/2105.02375.pdf
+
 https://arxiv.org/abs/2202.08384
-https://arxiv.org/pdf/2206.04041.pdf 
-review of NC, good resource
-section 4 talks about generalization
+
+https://arxiv.org/pdf/2206.04041.pdf
+
 https://arxiv.org/abs/2202.09028
