@@ -6,7 +6,7 @@ In this project, we seek to investigate the effect of the ETF last layer on neur
  
 Additionally, we will explore when and how the ETF-based network exhibits NC under different hyperparameter spaces (learning rate, batch size, lambda) compared to the non-ETF-based network. For example, it has been previously observed that NC will not occur if the learning rate is too low. Part of our investigation is to examine the link between hyperparameters, NC, and the ETF last layer in order to gain a better understanding of NC failure modes. Observing the effects different hyperparameters have on neural collapse in the ETF and non-ETF settings can potentially shed light on how this phenomenon occurs in neural networks.
  
-The architectures we will use are MLP (L layers, change L), VGG, [ImageNet, DenseNet] with ReLU Activation. We will use the CIFAR-10 and CIFAR-100 datasets to see how the behavior changes with number of classes. 
+The architectures we will use are: MLP-L-H, CNN-L-H, ResNet
  
 References
 - https://arxiv.org/pdf/2008.08186.pdf
